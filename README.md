@@ -179,4 +179,5 @@ public class LoginController {
 
 如果授权过期，可以调用```refreshToken()```方法来刷新授权令牌
 
+
 **详细代码可以在源码测试下查看，先进入[Main](https://github.com/ShopEx/prism-java/blob/master/src/test/java/cn/shopex/prism/sdk/springmvc/main/ConsoleMain.java)启动web容器，然后浏览器打开登录页面localhost:8002/user/login 即可测试Oauth认证**
